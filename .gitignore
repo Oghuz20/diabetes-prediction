@@ -1,0 +1,21 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore model files
+*.joblib
+
+# Ignore data exports or outputs
+*.csv
+*.png
+*.zip
+
+# Ignore system files
+.DS_Store
+
+# Ignore virtual environments
+env/
+venv/
