@@ -2,14 +2,10 @@
 
 This project builds a machine learning model to predict diabetes using health indicators such as HbA1c level, blood glucose level, age, BMI, and more. A Stacking Ensemble is used to combine the strengths of multiple classifiers, and special care is taken to handle class imbalance, especially minimizing Type II errors (false negatives).
 
-## 📊 Dataset
-The data is sourced from Kaggle's diabetes health indicators dataset and includes features like:
-- HbA1c level
-- Blood glucose level
-- BMI
-- Age
-- Gender
-- Smoking history
+## 📊 Dataset Source
+This dataset is publicly available on [Kaggle](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset).  
+It contains anonymized patient health indicators used for diabetes classification.
+
 
 ## 🚀 Model Architecture
 We use a **StackingClassifier** with the following base learners:
